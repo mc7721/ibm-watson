@@ -1,0 +1,72 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "IBM Watson Message Resonance API",
+        "description": "REST methods for Message Resonance",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsservice.platform.watson.ibm.com\/messageresonance\/service\/api"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "ringscore": {
+                "type": "object",
+                "properties": {
+                    "overall": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "prevalence": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "volume": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "duration": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "datasets": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Feedback": {
+                "type": "object",
+                "properties": {
+                    "service_request": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_response": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "score": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
