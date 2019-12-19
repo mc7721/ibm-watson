@@ -1,0 +1,38 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "IBM Watson Concept Expansion API",
+        "description": "REST methods for Concept Expansion",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsservice.platform.watson.ibm.com\/proxy\/glimpse\/v1"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Feedback": {
+                "type": "object",
+                "properties": {
+                    "service_request": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_response": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "score": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
