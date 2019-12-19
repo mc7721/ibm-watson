@@ -1,0 +1,38 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "IBM Watson Machine Translation API",
+        "description": "REST methods for Machine Translation",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsservice.platform.watson.ibm.com\/laser\/v1"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Feedback": {
+                "type": "object",
+                "properties": {
+                    "service_request": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_response": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "score": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
