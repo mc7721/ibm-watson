@@ -1,0 +1,138 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "IBM Watson User Modeling API",
+        "description": "REST methods for User Modeling",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsservice.platform.watson.ibm.com\/proxy"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Profile": {
+                "type": "object",
+                "properties": {
+                    "tree": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "source": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "TraitTreeNode": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "percentage": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "children": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ContentListContainer": {
+                "type": "object",
+                "properties": {
+                    "contentItems": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ContentItem": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "userid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "sourceid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "created": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "updated": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "contenttype": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "charset": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "language": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "content": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "parentid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "reply": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "forward": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Feedback": {
+                "type": "object",
+                "properties": {
+                    "service_request": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "service_response": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "score": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
