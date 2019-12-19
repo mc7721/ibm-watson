@@ -1,0 +1,286 @@
+{
+    "name": "IBM Watson",
+    "description": "<p>Meet IBM Watson, a cognitive system that enables a new partnership between people and computers that enhances and scales human expertise. Watson has been learning the language of professions and is trained by experts to work across many different industries.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+    "tags": [
+        "api lifeycle",
+        "api provider",
+        "artificial intelligence",
+        "getting started example",
+        "have api",
+        "machine learning",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "IBM Watson Concept Expansion API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-concept-expansion-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-concept-expansion-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-concept-expansion-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson Language Classifier API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-language-classifier-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-language-classifier-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-language-classifier-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson Machine Translation API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-translation-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-machine-translation-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-translation-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson Message Resonance API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-message-resonance-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-message-resonance-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-message-resonance-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson Question Answer API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-question-answer-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-question-answer-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-question-answer-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson Relationship Extraction API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-relationship-extraction-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-relationship-extraction-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-relationship-extraction-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson User Modeling API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-user-modeling-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-user-modeling-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-user-modeling-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson Machine Learning API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-learning-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-machine-learning-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-learning-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "IBM Watson IoT Platform HTTP REST API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/ibm-watson-logo.png",
+            "humanURL": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-iot-platform-http-rest-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-iot-platform-http-rest-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-iot-platform-http-rest-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Application Gallery",
+            "url": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/gallery.html"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/developer.ibm.com\/watson\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/developer.ibm.com\/watson\/feed\/"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/doc\/"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developer.ibm.com\/watson\/"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/apis\/"
+        },
+        {
+            "type": "Forums",
+            "url": "https:\/\/developer.ibm.com\/answers\/smartspace\/watson\/"
+        },
+        {
+            "type": "Getting Started",
+            "url": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/getstarted.html"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/IBM-Watson"
+        },
+        {
+            "type": "Partners",
+            "url": "http:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/ecosystem.html"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/www.ibm.com\/privacy\/us\/en\/?lnk=flg-priv-usen"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "http:\/\/www.ibm.com\/legal\/us\/en\/?lnk=flg-tous-usen"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/IBMWatson"
+        },
+        {
+            "type": "Videos",
+            "url": "http:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/"
+        },
+        {
+            "type": "White Papers",
+            "url": "https:\/\/developer.ibm.com\/watson\/docs\/whitepapers\/"
+        }
+    ]
+}
