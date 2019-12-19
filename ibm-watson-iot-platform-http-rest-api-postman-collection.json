@@ -1,0 +1,2376 @@
+{
+    "id": "cb09d4759e5a4663e2c6e021c52b595d",
+    "name": "IBM Watson IoT Platform HTTP REST API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "f78851d9b132bff04c709a9cfbee2134",
+            "name": "Query active schema definitions",
+            "url": "https\/api\/v0002\/schemas",
+            "description": "Schemas are used to define the structure of Events, Device State and\nThing State in the Watson IoT Platform.\n\n  - For Events, they define the structure of the payload of the events\n    that are published to the platform by devices.\n\n  - For Device and Thing State, they define the structure of the state\n    that is stored by the platform.\n\nThe **schemas** endpoint returns the list of all of the active schema \ndefinitions for the organization in the Watson IoT Platform.  Various\nquery parameters c",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8dfadb71ebb45b2aec96d60932558204",
+            "name": "Get active schema definition metadata",
+            "url": "https\/api\/v0002\/schemas\/{schemaId}",
+            "description": "Retrieves the metadata for the active schema definition with the\nspecified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "7031b40ae24b9d903b42e3f509ddb22b",
+            "name": "Get the contents of the active schema definition file",
+            "url": "https\/api\/v0002\/schemas\/{schemaId}\/content",
+            "description": "Retrieves the content of the active schema definition file with the\nspecified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ddc41d9e998ab2b966bdee9dc31201ae",
+            "name": "Query draft schema definitions",
+            "url": "https\/api\/v0002\/draft\/schemas",
+            "description": "Schemas are used to define the structure of Events, Device State and\nThing State in the Watson IoT Platform.\n\n  - For Events, they define the structure of the payload of the events\n    that are published to the platform by devices.\n\n  - For Device and Thing State, they define the structure of the state\n    that is stored by the platform.\n\nThe **\/draft\/schemas** endpoint returns the list of all of the draft \nschema for the organization in the Watson IoT Platform.  Various query\nparameters can be ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d3bd59962bc63a697ddd701039c2346d",
+            "name": "Create a draft schema definition",
+            "url": "https\/api\/v0002\/draft\/schemas",
+            "description": "Creates a new draft schema definition for the organization in the Watson\nIoT Platform.\n\nThe schema definition file is passed to the Watson IoT Platform within a\nmultipart POST (multipart\/form-data).  The body of the POST **must**\ncontain at least two parts:\n\n  - One with a name of **schemaFile** that contains the actual content\n    of the file as the body of the part.\n    \n  - One with a name of **name** that contains a string that defines the\n    name of the schema resource in the body of the p",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "fe99d7e8fd3f2156d70c550fbea24f6d",
+            "name": "Get draft schema definition metadata",
+            "url": "https\/api\/v0002\/draft\/schemas\/{schemaId}",
+            "description": "Retrieves the metadata for the draft schema definition with the\nspecified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "e2d776ad8dd215ec3110bdbe50059915",
+            "name": "Update draft schema definition metadata",
+            "url": "https\/api\/v0002\/draft\/schemas\/{schemaId}",
+            "description": "Updates the metadata for the draft schema definition with the specified\nid. The following properties can be updated:\n\n  - name\n  - description\n  \nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the schema\ndefinition.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - schemaType\n  - schemaFilename\n  - contentType\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  - refs\n  \nThe schemaF",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "schemaDefinition",
+                    "description": "The JSON representation of the schema definition.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "50d04b56a1b4bb2250dc80bf55ec3b2d",
+            "name": "Delete a draft schema definition",
+            "url": "https\/api\/v0002\/draft\/schemas\/{schemaId}",
+            "description": "Deletes the draft schema definition with the specified id from the\norganization in the Watson IoT Platform.  Deleting the schema definition\ndeletes both the metadata and the actual schema definition file from the\nWatson IoT Platform.\n\nPlease note the the delete will fail if the draft schema definition is\nbeing referenced by an event type or logical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8cff222de904c3bc4d0797af1370d824",
+            "name": "Get the contents of the draft schema definition file",
+            "url": "https\/api\/v0002\/draft\/schemas\/{schemaId}\/content",
+            "description": "Retrieves the content of the draft schema definition file with the\nspecified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "de76fa6246f63ccb90c437740b5f7f93",
+            "name": "Update the content of a draft schema definition file",
+            "url": "https\/api\/v0002\/draft\/schemas\/{schemaId}\/content",
+            "description": "Updates the content of a draft schema definition file with the specified\nid.\n\nThe schema definition file is passed to the Watson IoT Platform within a\nmultipart POST (multipart\/form-data).  The body of the POST **must**\ncontain one part with a name of the **schemaFile** and the\nactual schema file as the body of the part.\n\nPlease note that the schemaFilename and contentType properties of the\nschema definition will also be updated as a result of updating the\ncontent of the schema file.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "4d5af1d23f07f8e5861c2b0138cc4fed",
+            "name": "Query active event types",
+            "url": "https\/api\/v0002\/event\/types",
+            "description": "Event types are used to model the events that are published to the\nWatson IoT Platform.  An event type must be created in an organization\nbefore more complex processing can be performed on the native event.\n\nThe **\/event\/types** endpoint returns the list of all of the active\nevent types that have been defined for the organization in the Watson\nIoT Platform.  Various query parameters can be used to filter, sort and\npage through the list of active event types that are returned.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "65a70ff41ef89df7dc3ac38a786ab94c",
+            "name": "Get an active event type",
+            "url": "https\/api\/v0002\/event\/types\/{eventTypeId}",
+            "description": "Retrieve the active event type with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "604268acee1c031acbefa1eac53d2739",
+            "name": "Query draft event types",
+            "url": "https\/api\/v0002\/draft\/event\/types",
+            "description": "Event types are used to model the events that are published to the\nWatson IoT Platform.  An event type must be created in an organization\nbefore more complex processing can be performed on the native event.\n\nThe **\/draft\/event\/types** endpoint returns the list of all of the draft\nevent types that have been defined for the organization in the Watson\nIoT Platform.  Various query parameters can be used to filter, sort and\npage through the list of draft event types that are returned.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "49846c8af454bddb0e31b0f3d79e3c33",
+            "name": "Create a draft event type",
+            "url": "https\/api\/v0002\/draft\/event\/types",
+            "description": "Creates a new draft event type for the organization in the Watson IoT\nPlatform.  The draft event type must reference the schema definition\nthat defines the structure of the inbound MQTT event.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Event Type",
+                    "description": "The JSON representation of the draft event type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8f85f1ceee182985d1aeb23f4db9e7e1",
+            "name": "Get a draft event type",
+            "url": "https\/api\/v0002\/draft\/event\/types\/{eventTypeId}",
+            "description": "Retrieve the draft event type with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3efa19d284d96329f52a54581102836",
+            "name": "Update a draft event type",
+            "url": "https\/api\/v0002\/draft\/event\/types\/{eventTypeId}",
+            "description": "Updates the draft event type with the specified id. The following\nproperties can be updated:\n\n  - name\n  - description\n  - schemaId\n\nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the event\ntype.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  - refs\n  \nThe values of these properties are set on the server as a result of a\nsuccessful ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Event Type",
+                    "description": "The JSON representation of the draft event type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "f4958d4488c5d1a44a3b2eb741078cc3",
+            "name": "Delete a draft event type",
+            "url": "https\/api\/v0002\/draft\/event\/types\/{eventTypeId}",
+            "description": "Deletes the draft event type with the specified id from the organization\nin the Watson IoT Platform.\n\nPlease note the the delete will fail if the draft event type is being \nreferenced by a physical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "74e97c67fa506dfd9aca1d4b53429d30",
+            "name": "Query active phyiscal interfaces",
+            "url": "https\/api\/v0002\/physicalinterfaces",
+            "description": "Physical interfaces are used to model the interfaces between physical\ndevices and the Watson IoT Platform.  A physical interface references\nevent types.  Devices that implement a physical interface publish these\nevents to the platform.\n\nThe event types are referenced via a mapping that maps an event id to\nthe id of an event type.  The event id corresponds to the MQTT topic\nthat the event is published to by a device.\n\nThe **physicalinterfaces** endpoint returns the list of all of the\nactive physi",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "11ab3cbf483a131774e776c48dfccb55",
+            "name": "Get an active physical interface",
+            "url": "https\/api\/v0002\/physicalinterfaces\/{physicalInterfaceId}",
+            "description": "Retrieve the active physical interface with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d1b375f7f1b352bc30aed3bdff1c532f",
+            "name": "Get the list of event mappings",
+            "url": "https\/api\/v0002\/physicalinterfaces\/{physicalInterfaceId}\/events",
+            "description": "Retrieve the list of event mappings for the active physical interface.\nEvent mappings are keyed off of the event id specified in the MQTT topic\nthat the inbound events are published to.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "b2da19285af8da4eb85ccca7c2c0bfa4",
+            "name": "Query draft phyiscal interfaces",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces",
+            "description": "Physical interfaces are used to model the interfaces between physical\ndevices and the Watson IoT Platform.  A physical interface references\nevent types.  Devices that implement a physical interface publish these\nevents to the platform.\n\nThe event types are referenced via a mapping that maps an event id to\nthe id of an event type.  The event id corresponds to the MQTT topic\nthat the event is published to by a device.\n\nThe **\/draft\/physicalinterfaces** endpoint returns the list of all of \nthe draf",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "1518f7519739eaddf9b8fb128a11e16c",
+            "name": "Create a draft physical interface",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces",
+            "description": "Creates a new draft physical interface for the organization in the \nWatson IoT Platform.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Physical Interface",
+                    "description": "The JSON representation of the physical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a38c9afeb3129c6a43ff019fa27440bf",
+            "name": "Get a draft physical interface",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces\/{physicalInterfaceId}",
+            "description": "Retrieve the draft physical interface with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "1b7fa8273cd3907f67163697b43874b2",
+            "name": "Update a draft physical interface",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces\/{physicalInterfaceId}",
+            "description": "Updates the draft physical interface with the specified id. The \nfollowing properties can be updated:\n\n  - name\n  - description\n\nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the physical\ninterface.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  - refs\n  \nThe values of these properties are set on the server as a result of a\nsuccess",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Physical Interface",
+                    "description": "The JSON representation of the physical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "55b13ea7e0d5abd1f5ffab85c4b05ac3",
+            "name": "Delete a draft physical interface",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces\/{physicalInterfaceId}",
+            "description": "Deletes the draft physical interface with the specified id from the\norganization in the Watson IoT Platform.\n\nPlease note the the delete will fail if the draft physical interface is\nbeing referenced  by a device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "aef2ff04a8c72280bdcb3b056e5221ef",
+            "name": "Get the list of event mappings",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces\/{physicalInterfaceId}\/events",
+            "description": "Retrieve the list of event mappings for the draft physical interface.\nEvent mappings are keyed off of the event id specified in the MQTT topic\nthat the inbound events are published to.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "b1f4110d854008fe8b81e6827dda0cef",
+            "name": "Map an event to the draft physical interface",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces\/{physicalInterfaceId}\/events",
+            "description": "Maps an event id to a specific event type for the draft specified\nphysical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Event Mapping",
+                    "description": "The JSON representation of the event mapping.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "5a956c9936370209d4ac5bb419e0050a",
+            "name": "Remove an event mapping from the draft physical interface",
+            "url": "https\/api\/v0002\/draft\/physicalinterfaces\/{physicalInterfaceId}\/events\/{eventId}",
+            "description": "Removes the event mapping with the specified id from the draft physical\ninterface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "457a34b99666fa2c363d720b56a04563",
+            "name": "Query active logical interfaces",
+            "url": "https\/api\/v0002\/logicalinterfaces",
+            "description": "Logical interfaces are used to model the interfaces exposed by a\ndevice or thing in the Watson IoT Platform. A logical interface\nmust reference a schema definition that defines the structure of the\nstate that will be stored for the device or thing.\n\nThe **logicalinterfaces** endpoint returns the list of all of the\nactive logical interfaces that have been defined for the organization\nin the Watson IoT Platform.  Various query parameters can\nbe used to filter, sort and page through the list of act",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "5e139078d6dd9295d87c51bf4e85e996",
+            "name": "Get an active logical interface",
+            "url": "https\/api\/v0002\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Retrieve the active logical interface with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "e0fb896f2ef9ad0736221d49cc50d747",
+            "name": "Perform an operation against a logical interface",
+            "url": "https\/api\/v0002\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Performs the specified operation against the logical interface. The\nfollowing values can be specified for the operation property:\n\n  - deactivate-configuration\n\nThe **deactivate-configuration** operation will remove any active\nconfiguration that is currently associated with the logical\ninterface. If the logical interface is associated with any device\ntypes, the state for any instances of those device types will be deleted\nas a result of performing the **deactivate-configuration** operation.\nThe ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Operation",
+                    "description": "The JSON representation of an operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "773f6b36aaf95baefa3de6cb470abdb7",
+            "name": "Query draft logical interfaces",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces",
+            "description": "Logical interfaces are used to model the interfaces exposed by a\ndevice or thing in the Watson IoT Platform. A logical interface must\nreference a schema definition that defines the structure of the\nstate that will be stored for the device or thing.\n\nThe **logicalinterfaces** endpoint returns the list of all of the\ndraft logical interfaces that have been defined for the organization\nin the Watson IoT Platform.  Various query parameters can be used to\nfilter, sort and page through the list of draf",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "111a21d6cde6743654e71ba3f26d32e9",
+            "name": "Create a draft logical interface",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces",
+            "description": "Creates a new draft logical interface for the organization in the\nWatson IoT Platform. The logical interface must reference a schema\ndefinition that defines the structure of the state that will be stored\nfor the device or thing.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Logical Interface",
+                    "description": "The JSON representation of the draft logical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8dfca4bb2f4433cdec4c0744006bfa87",
+            "name": "Get a draft logical interface",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Retrieve the draft logical interface with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "14eac2e4f71d56cb44eb440a9670a7ea",
+            "name": "Update a draft logical interface",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Updates the draft logical interface with the specified id. The\nfollowing properties can be updated: \n\n  - name\n  - description\n  - schemaId\n\nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the logical\ninterface.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  - refs\n  \nThe values of these properties are set on the server as a result o",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Logical Interface",
+                    "description": "The JSON representation of the draft logical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff1d1397e987a34c95c4133f49b1f6db",
+            "name": "Perform an operation against a draft logical interface",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Performs the specified operation against the draft logical\ninterface. The following values can be specified for the operation\nproperty:\n\n  - validate-configuration\n  - activate-configuration\n  - list-differences\n\nThe **validate-configuration** operation will analyze all of the \nconfiguration associated with the draft logical interface to\ndetermine if it is valid.  If the configuration is invalid, a list of \nthe issues will be returned in the body of the response.  \n \nThe **activate-configuration",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Operation",
+                    "description": "The JSON representation of an operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "6d612de918fb97cc5399fa09e25b4449",
+            "name": "Delete a draft logical interface",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Deletes the draft logical interface with the specified id from the\norganization in the Watson IoT Platform.\n\nPlease note the the delete will fail if the draft logical interface\nis being referenced by a device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "5f7cec5db6d6a3936dc7af6409e1fa41",
+            "name": "Query active rules",
+            "url": "https\/api\/v0002\/logicalinterfaces\/{logicalInterfaceId}\/rules",
+            "description": "Rules allow you to specify conditions that can be used to trigger\nactions. For example, you might create a rule that sends an email if\nthe temperature of a device exceeds a certain value.\n\nRules are defined against a specific logical interface schema.  At\nruntime, a rule will be evaluated whenever the state for a Device that\nexposes the logical interface changes.\n\nThe **\/logicalinterfaces\/{logicalInterfaceId}\/rules** endpoint returns\nthe list of all of the active rules that have been associated ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "cf89367a2fc2ad560275a57962801c29",
+            "name": "Get an active rule",
+            "url": "https\/api\/v0002\/logicalinterfaces\/{logicalInterfaceId}\/rules\/{ruleId}",
+            "description": "Retrieve the active rule with the specified id that has been associated\nwith the specified logical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba51bfd7d4bccea5921116f27f7357ff",
+            "name": "Query draft rules",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}\/rules",
+            "description": "Rules allow you to specify conditions that can be used to trigger\nactions. For example, you might create a rule that sends an email if\nthe temperature of a device exceeds a certain value.\n\nRules are defined against a specific logical interface schema.  At\nruntime, a rule will be evaluated whenever the state for a Device that\nexposes the logical interface changes.\n\nThe **\/draft\/logicalinterfaces\/{logicalInterfaceId}\/rules** endpoint\nreturns the list of all of the draft rules that have been associ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "3d718a1747fc93f8e22318c694576f01",
+            "name": "Create a draft rule",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}\/rules",
+            "description": "Creates a new draft rule that is associated with the logical interface\nfor the organization in the Watson IoT Platform.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Rule",
+                    "description": "The JSON representation of the draft rule.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "bcc720e138c997fe9bb0e1f8ccd1bbe6",
+            "name": "Get a draft rule",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}\/rules\/{ruleId}",
+            "description": "Retrieve the draft rule with the specified id that has been associated\nwith the specified logical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a96cf8cfe0c056bb6aca8de4d139fd93",
+            "name": "Update a draft rule",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}\/rules\/{ruleId}",
+            "description": "Updates the draft rule with the specified id. The following properties\ncan be updated: \n\n  - name\n  - description\n  - condition\n\nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the rule.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  - refs\n  \nThe values of these properties are set on the server as a result of a\nsuccessful update.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Rule",
+                    "description": "The JSON representation of the draft rule.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a93c3cd3f3300952cffc0f4dd98ec2a9",
+            "name": "Delete a draft rule",
+            "url": "https\/api\/v0002\/draft\/logicalinterfaces\/{logicalInterfaceId}\/rules\/{ruleId}",
+            "description": "Deletes the draft rule with the specified id from the organization in\nthe Watson IoT Platform.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "c4c76b2cd3df57e50d41ed28ca29389e",
+            "name": "List device types",
+            "url": "https\/api\/v0002\/device\/types",
+            "description": "Sorting can be performed on any of the following properties (sort\norder can be reversed by prefixing the property name with '-'):\n- id\n- description\n- deviceInfo.description\n- deviceInfo.descriptiveLocation\n- deviceInfo.serialNumber\n- deviceInfo.deviceClass\n- deviceInfo.fwVersion\n- deviceInfo.hwVersion\n- deviceInfo.manufacturer\n- deviceInfo.model\n\nThe following facets are supported:\n- deviceInfo.deviceClass\n- deviceInfo.fwVersion\n- deviceInfo.hwVersion\n- deviceInfo.manufacturer\n- deviceInfo.mode",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "Optional filter of results by ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "description",
+                    "description": "Optional filter of results by description",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "6f7c1ddbb3966a208e391869d71b4954",
+            "name": "Perform an operation against a device type",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}",
+            "description": "Performs the specified operation against the device type. The following\nvalues can be specified for the operation property:\n\n  - deactivate-configuration\n\nThe **deactivate-configuration** operation will remove any activate\nconfiguration that is currently associated with the device type. If any\ninstances of the device type exist, the state for those devices will be\ndeleted as a result of performing the **deactivate-configuration**\noperation. The **deactivate-configuration** operation will fail if",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Device Type Operation",
+                    "description": "The JSON representation of a device type operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f0af09e71ecc320672f17d4beaf354f",
+            "name": "Get the active physical interface associated with the device type\n",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}\/physicalinterface",
+            "description": "Retrieve the active physical interface that has been associated with the\ndevice type.  At least one active physical interface must be associated\nwith the device type before any mappings can be defined that will\ngenerate state for the device.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "b6ae973cb74c59a01f89eaa9c49e652b",
+            "name": "Get the list of active logical interfaces associated with the device\ntype\n",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}\/logicalinterfaces",
+            "description": "Retrieve the list of active logical interfaces that have been\nassociated with the device type.  At least one logical interface\nmust be associated with the device type before any mappings can be\ndefined that will generate state for the device.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "12b9d219028b06f0253d197b2117601b",
+            "name": "Get the list of active property mappings for the device type",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}\/mappings",
+            "description": "Retrieve the list of active property mappings for the specified device\ntype.  A property mapping defines how properties from inbound events are\nmapped to properties defined on an logical interface associated with\nthe device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d063b89c3e056d6c4a2f87361b289aa0",
+            "name": "Get the active property mappings for a specific logical interface\nfor a device type.\n",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Retrieves the active property mappings for a specific logical\ninterface for the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "c8f85285695876b51ad26d2722daa4f3",
+            "name": "List device types associated with an logical or physical interface",
+            "url": "https\/api\/v0002\/draft\/device\/types",
+            "description": "Retrieves the list of device types that are associated with the\nlogical interface and\/or physical interface with the ids specified\nusing the corresponding query parameters.\n\nNote that at least one of the following query parameters must be\nspecified:\n\n  - logicalInterfaceId\n  - physicalInterfaceId\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "30a51e5764f968b6fd3aac237f0554d3",
+            "name": "Perform an operation against a draft device type",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}",
+            "description": "Performs the specified operation against the draft device type. The\nfollowing values can be specified for the operation property:\n\n  - validate-configuration\n  - activate-configuration\n  - list-differences\n\nThe **validate-configuration** operation will analyze all of the \nconfiguration associated with the draft device type to determine if it\nis valid.  If the configuration is invalid, a list of the issues will\nbe returned in the body of the response.  \n \nThe **activate-configuration** operation ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Device Type Operation",
+                    "description": "The JSON representation of a device type operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "b99312d30bb809a0b3abeb3b554ce492",
+            "name": "Get the draft physical interface associated with the device type\n",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/physicalinterface",
+            "description": "Retrieve the draft physical interface that has been associated with the\ndevice type.  At least one active physical interface must be associated\nwith the device type before any mappings can be defined that will\ngenerate state for the device.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "59324e118ebdda8e423de2053ffe302f",
+            "name": "Associate a draft physical interface with the device type",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/physicalinterface",
+            "description": "Associates a draft physical interface with the specified device type.\nThe draft physical interface must already exist within the organization\nin the Watson IoT Platform. If a draft physical interface is already\nassociated with the device type it will be replaced with the specified\nphysical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Physical Interface",
+                    "description": "The JSON representation of the physical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ae1a8a564729c8eb40acd3d4260e34bd",
+            "name": "Disassociate the draft physical interface from the device type",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/physicalinterface",
+            "description": "Disassociates the draft physical interface from the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d40de3a80698afb085b7b2346e25c0be",
+            "name": "Get the list of draft logical interfaces associated with the device\ntype\n",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/logicalinterfaces",
+            "description": "Retrieve the list of draft logical interfaces that have been\nassociated with the device type.  At least one active logical\ninterface must be associated with the device type before any mappings\ncan be defined that will generate state for the device.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "79d9c8d9af224fa39c302f92e895325c",
+            "name": "Associate a draft logical interface with the device type",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/logicalinterfaces",
+            "description": "Associates a draft logical interface with the specified device type.\nThe draft logical interface must already exist within the organization\nin the Watson IoT Platform.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Logical Interface",
+                    "description": "The JSON representation of the draft logical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "4c7dc7d838394412e2b96577e4cec436",
+            "name": "Disassociate a draft logical interface from the device type",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Disassociates the draft logical interface  with the specified id\nfrom the device type.\n\nPlease note the the delete will fail if the draft logical interface\nbeing removed from the device type is referenced in the property\nmappings for the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d84a93a10b83c898dfd3a995cbce22ce",
+            "name": "Get the list of draft property mappings for the device type",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/mappings",
+            "description": "Retrieve the list of draft property mappings for the specified device\ntype.  A property mapping defines how properties from inbound events are\nmapped to properties defined on an logical interface associated with\nthe device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "15d0119e7fc52bd2ce4da3dcf7ce34c4",
+            "name": "Create the draft property mappings for a logical interface for the\ndevice type\n",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/mappings",
+            "description": "Creates the draft property mappings for an logical interface for the\ndevice type.  The mapping object must specify:\n- The id for for the logical interface that the mappings are for\n- The mappings that define how to map from properties on the inbound\n  events to the properties on the logical interface.  The mappings\n  are keyed off of the event ids defined by the physical interface\n  associated with the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Device Type Property Mappings",
+                    "description": "The JSON representation of the draft device type property mappings.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "7c129d245f7dbec366c208d8d635458f",
+            "name": "Get the draft property mappings for a specific logical interface for\na device type.\n",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Retrieves the draft property mappings for a specific logical\ninterface for the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "cf0bbc9fd73e9ab9934a02a60631eb02",
+            "name": "Update the draft property mappings for a specific logical interface\nfor the device type.\n",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Updates the draft property mappings for a specific logical interface\nfor the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Device Type Property Mappings",
+                    "description": "The JSON representation of the draft device type property mappings.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ab78f358d6de7d2cac2f5786a5be696d",
+            "name": "Delete the draft property mappings for a specific logical interface\nfor the device type.\n",
+            "url": "https\/api\/v0002\/draft\/device\/types\/{typeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Deletes the draft property mappings for a specific logical interface\nfor the device type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a49a7852b02d4914692d817410ad48f9",
+            "name": "Get the state for the device with the specified id",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}\/devices\/{deviceId}\/state\/{logicalInterfaceId}",
+            "description": "Retrieve the current state of the device with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "1c57f8d7ea8c74bf9cb470cbc7e3a5f0",
+            "name": "Perform an operation against the device state for a logical interface\n",
+            "url": "https\/api\/v0002\/device\/types\/{typeId}\/devices\/{deviceId}\/state\/{logicalInterfaceId}",
+            "description": "Performs the specified operation against the device state for a logical\ninterface. The following values can be specified for the operation\nproperty:\n\n  - reset-state\n\nThe **reset-state** operation will reset the state of the specified\ndevice to the default values as defined by the schema for the logical\ninterface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Operation",
+                    "description": "The JSON representation of an operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "66af9e354403f887ccf5b790e92d6e98",
+            "name": "Query active thing types",
+            "url": "https\/api\/v0002\/thing\/types",
+            "description": "Within the Watson IoT Platform, a Thing allows you to aggregate one or\nmore instances of a Device or Thing together to represent a more coarse\ngrained object.  For example, you might aggregrate together a temperature\nsensor, flow sensor and power sensor together into a Boiler. \n\nThing Types are used to model Things.  The Schema associated with a\nThing Type defines the type of objects that are aggregated togther to\nmake up an instance of a Thing. A Thing Type must be created in an \norganization b",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8a21358acfe0021dad04f3184108a315",
+            "name": "Get an active thing type",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}",
+            "description": "Retrieve the active thing type with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "96589ca428bc20030fa4ea5041815db5",
+            "name": "Perform an operation against an active thing type",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}",
+            "description": "Performs the specified operation against the active thing type. The\nfollowing values can be specified for the operation property:\n\n  - deactivate-configuration\n\nThe **deactivate-configuration** operation will remove any active\nconfiguration that is currently associated with the thing type. The\n**deactivate-configuration** operation will fail if there are\nany instances of the thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Thing Type Operation",
+                    "description": "The JSON representation of a thing type operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "2429928678c32aeb4cb2a24df8669e50",
+            "name": "Query draft thing types",
+            "url": "https\/api\/v0002\/draft\/thing\/types",
+            "description": "Within the Watson IoT Platform, a Thing allows you to aggregate one or\nmore instances of a Device or Thing together to represent a more coarse\ngrained object.  For example, you might aggregrate together a temperature\nsensor, flow sensor and power sensor together into a Boiler. \n\nThing Types are used to model Things.  The Schema associated with a\nThing Type defines the type of objects that are aggregated togther to\nmake up an instance of a Thing. A Thing Type must be created in an \norganization b",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8f73c45f2e05cc3d30c25e261daa2f5a",
+            "name": "Create a draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types",
+            "description": "Creates a new draft thing type for the organization in the Watson IoT\nPlatform.  The thing type must reference the schema definition that\ndefines the structure of instances of the thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Thing Type",
+                    "description": "The JSON representation of the thing type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "e04a2a892e495a077ae95fff4f51ef4f",
+            "name": "Get a draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}",
+            "description": "Retrieve the draft thing type with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "bc3495877f57855b7657105650cba13f",
+            "name": "Update a draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}",
+            "description": "Updates the draft thing type with the specified id. The following\nproperties can be updated:\n\n  - name\n  - description\n  - schemaId\n  - metadata\n\nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the draft\nthing type.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - version\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  - refs\n  \nThe values of these properties are set on the serv",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Thing Type",
+                    "description": "The JSON representation of the thing type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "71395719d482a32f847f587968ec0478",
+            "name": "Perform an operation against a draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}",
+            "description": "Performs the specified operation against the draft thing type. The\nfollowing values can be specified for the operation property:\n\n  - validate-configuration\n  - activate-configuration\n  - list-differences\n\nThe **validate-configuration** operation will analyze all of the \nconfiguration associated with the draft thing type to determine if it is\nvalid.  If the configuration is invalid, a list of the issues will be\nreturned in the body of the response.  \n \nThe **activate-configuration** operation wi",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Thing Type Operation",
+                    "description": "The JSON representation of a thing type operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "eba639e7eaef9225e9865ea0be5f70c2",
+            "name": "Delete a draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}",
+            "description": "Deletes the draft thing type with the specified id from the organization\nin the Watson IoT Platform.\n\nPlease note the the delete will fail if there is an active version of the\nthing type or if the thing type is currently being referenced by another\nobject.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba5e1d7269d077e43e4432a08ddea289",
+            "name": "Get the list of active logical interfaces associated with the thing\ntype\n",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/logicalinterfaces",
+            "description": "Retrieve the list of active logical  interfaces that have been associated\nwith the thing type.  At least one logical interface must be associated\nwith the thing type before any mappings can be defined that will generate\nstate for the thing.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "0df728293c919066b89796216388d2ac",
+            "name": "Get the list of active property mappings for the thing type",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/mappings",
+            "description": "Retrieve the list of active property mappings for the specified thing\ntype.  A property mapping defines how properties from state update events\non aggregated devices or things are mapped to properties defined on a\nlogical interface associated with the thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b3a425a864fb324e14c3beaf54654d5",
+            "name": "Get the active property mappings for a specific logical interface for\na thing type.\n",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Retrieves the active property mappings for a specific logical interface\nfor the thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "5565fd000fb1b30d2a12a7a74069352c",
+            "name": "Get the list of draft logical interfaces associated with the thing\ntype\n",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/logicalinterfaces",
+            "description": "Retrieve the list of draft logical interfaces that have been associated\nwith the draft thing type.  At least one logical interface must be\nassociated with the thing type before any mappings can be defined that\nwill generate state for the thing.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "262b6d0b453dc1d5d20551ea952e9a99",
+            "name": "Associate a draft logical interface with the draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/logicalinterfaces",
+            "description": "Associates a draft logical interface with the specified draft thing type.\nThe logical interface must already exist within the organization in the\nWatson IoT Platform.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Logical Interface",
+                    "description": "The JSON representation of the draft logical interface.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "2c08a9fbedf94633cf57ce841917433a",
+            "name": "Disassociate a logical interface from the draft thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/logicalinterfaces\/{logicalInterfaceId}",
+            "description": "Disassociates the draft logical interface with the specified id from the\ndraft thing type.\n\nPlease note the the delete will fail if the logical interface being\nremoved from the draft thing type is referenced in the property mappings\nfor the draft thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a77e4ac298ccd6efbff5487c1e378fc3",
+            "name": "Get the list of draft property mappings for the thing type",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/mappings",
+            "description": "Retrieve the list of draft property mappings for the specified draft\nthing type.  A property mapping defines how properties from state update\nevents on aggregated devices or things are mapped to properties defined\non a logical interface associated with the thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "fb9f346bbb57e91bc6fdfeff09dbd9cd",
+            "name": "Create the draft property mappings for a logical interface for the thing\ntype\n",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/mappings",
+            "description": "Creates the draft property mappings for a logical interface for the\nthing type.  The mapping object must specify:\n- The id for for the logical interface that the mappings are for\n- The mappings that define how to map from properties on the state\n  update events to the properties on the logical interface.  The\n  mappings are keyed off of the name of the internal properties of the\n  thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Thing Type Property Mappings",
+                    "description": "The JSON representation of the thing type property mappings.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "703b59fc983f8038435cbf586a57864a",
+            "name": "Get the draft property mappings for a specific logical interface for\na thing type.\n",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Retrieves the draft property mappings for a specific logical interface\nfor the thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "1769dff1714ba5688b338158aabef867",
+            "name": "Update the property mappings for a specific logical interface for\nthe thing type.\n",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Updates the property mappings for a specific logical interface\nfor the draft thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Thing Type Property Mappings",
+                    "description": "The JSON representation of the thing type property mappings.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "6ec7791ce6c3c35e36178911b971483e",
+            "name": "Delete the property mappings for a specific logical interface for\nthe draft thing type.\n",
+            "url": "https\/api\/v0002\/draft\/thing\/types\/{thingTypeId}\/mappings\/{logicalInterfaceId}",
+            "description": "Deletes the property mappings for a specific logical interface\nfor the draft thing type.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "7d2383945388c6a2a11b5bd6ebf21ca3",
+            "name": "List things",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things",
+            "description": "Within the Watson IoT Platform, a Thing allows you to aggregate one or\nmore instances of a Device or Thing together to represent a more coarse\ngrained object.  For example, you might aggregrate together a\ntemperature sensor, flow sensor and power sensor together into a Boiler. \n\nThe **\/thing\/types\/{thingTypeId}\/things** endpoint returns the list of\nall of the Thing instances of the specified type that have been created\nfor the organization in the Watson IoT Platform. Various query\nparameters can",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a51e884941a554b3a709c199b761510b",
+            "name": "Create a thing",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things",
+            "description": "Creates a thing instance of the specified type for the organization in\nthe Watson IoT Platform. The thing type must have a valid set of   \nInformation Management metadata associated with it and activated before\nany instances can be created.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "thing",
+                    "description": "Thing to be created",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "4508254f3ae5e8ab05007c0cb982c2e7",
+            "name": "Get a thing",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things\/{thingId}",
+            "description": "Retrieve the thing with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d2590b748861f72d7882a144329f2759",
+            "name": "Update a thing",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things\/{thingId}",
+            "description": "Updates the thing with the specified id. The following properties\ncan be updated:\n\n  - name\n  - description\n  - metadata\n  - aggregatedObjects\n\nNote that if the description field is omitted from the body of the\nupdate, then any existing description will be removed from the thing\ntype.\n  \nAny changes made to the values of the following properties will be\nignored:\n\n  - created\n  - createdBy\n  - updated\n  - updatedBy\n  \nThe values of these properties are set on the server as a result of a\nsuccessfu",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "thing",
+                    "description": "Thing to be created",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "d134f1579eea4cdc4d951b2ee0c34b3f",
+            "name": "Delete a thing",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things\/{thingId}",
+            "description": "Deletes the thing with the specified id from the organization in the \nWatson IoT Platform.\n\nPlease note the the delete will fail if the thing being deleted is \ncurrently being aggregated by other thing instances.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "3c8317c207558284a55e5625f8ae2ca7",
+            "name": "Get the state for the thing with the specified id",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things\/{thingId}\/state\/{logicalInterfaceId}",
+            "description": "Retrieve the current state of the thing with the specified id.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        },
+        {
+            "id": "4eb9cd0cc1d79b73ea622a194d82b364",
+            "name": "Perform an operation against the thing state for a logical interface\n",
+            "url": "https\/api\/v0002\/thing\/types\/{thingTypeId}\/things\/{thingId}\/state\/{logicalInterfaceId}",
+            "description": "Performs the specified operation against the thing state for a logical\ninterface. The following values can be specified for the operation\nproperty:\n\n  - reset-state\n\nThe **reset-state** operation will reset the state of the specified\nthing instance to the default values as defined by the schema for the\nlogical interface.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Operation",
+                    "description": "The JSON representation of an operation.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "cb09d4759e5a4663e2c6e021c52b595d",
+            "rawModeData": ""
+        }
+    ]
+}
