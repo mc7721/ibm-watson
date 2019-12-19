@@ -1,0 +1,397 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "IBM Watson Question Answer API",
+        "description": "REST methods for Question and Answer",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsservice.platform.watson.ibm.com\/qagw"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "ping": {
+                "type": "object"
+            },
+            "services": {
+                "type": "object",
+                "properties": {
+                    "services": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "service": {
+                "type": "object",
+                "properties": {
+                    "overall": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "description": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "watsonQuestion": {
+                "type": "object",
+                "properties": {
+                    "question": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "QuestionInformation": {
+                "type": "object",
+                "properties": {
+                    "questionText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "items": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "evidenceRequest": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "answerAssertion": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "category": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "context": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedAnswer": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "passthru": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "synonyms": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "lat": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "filters": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "EvidenceRequest": {
+                "type": "object",
+                "properties": {
+                    "items": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "profile": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Filters": {
+                "type": "object",
+                "properties": {
+                    "filters": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Filter": {
+                "type": "object",
+                "properties": {
+                    "filterType": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "filterName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "values": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "WatsonAnswer": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "answers": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "category": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "errorNotifications": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "evidenceList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "focusList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "latList": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "pipelineid": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "qclasslist": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "status": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "supplemental": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "synonymList": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Answers": {
+                "type": "object",
+                "properties": {
+                    "answers": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Answer": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confidence": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "evidence": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "evidenceProfile": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "formattedText": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Passage": {
+                "type": "object",
+                "properties": {
+                    "copyright": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "document": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "termsOfUse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "title": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "EvidenceProfile": {
+                "type": "object",
+                "properties": {
+                    "featureGroup": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "FeatureGroup": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "value": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "ErrorNotification": {
+                "type": "object",
+                "properties": {
+                    "error": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "SynonymList": {
+                "type": "object",
+                "properties": {
+                    "term": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "synSet": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "synonym": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "Evidence": {
+                "type": "object",
+                "properties": {
+                    "copyright": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "metadataMap": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "termsOfUse": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "text": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "title": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "document": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "value": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            },
+            "FeedbackInput": {
+                "type": "object",
+                "properties": {
+                    "questionId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "questionText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "answerId": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "answerText": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "userName": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mode": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "confidence": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "shown": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "evidenceViewed": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "feedback": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "comment": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
