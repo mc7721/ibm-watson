@@ -1,5 +1,5 @@
 {
-    "id": "5cf97cefb6c14f9bfd107b4fac762561",
+    "id": "c2a202bff1385642d764fca2f1ffa91c",
     "name": "IBM Watson Machine Learning API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d16592b886324526c7f539670077c2f4",
+            "id": "52598b807094637b7144d60cafe42152",
             "name": "Get Entity Token",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/identity\/token",
             "description": "Tokens are required for the ML REST API authentication. They are generated using ML service credentials",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "2f4ab0f9311542cebf8856341eccfafc",
+            "id": "d3a892121697df62807314e14f316d0c",
             "name": "Put Entity Token",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/identity\/token",
             "description": "Refreshes token, accepts expired token and generates a new one (if the application binding \/ service key is still valid)",
@@ -60,11 +60,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "73985798cc0f07aadec0069219685e51",
+            "id": "d07a912b0912ce431ea5178b01543426",
             "name": "Get Wml Instances Instance Published Models",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models",
             "description": "Get wml instances instance published models.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "6b64aa570c77216967b2745f21104b22",
+            "id": "ffc2f3957a67793c8a7f02198158b58b",
             "name": "Get Wml Instances Instance Published Models Published Model",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}",
             "description": "Get wml instances instance published models published model.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "1c0dba7221eef9f195c091e4270a6601",
+            "id": "bbafc37feb50e4f18b1078258c981657",
             "name": "Delete Wml Instances Instance Published Models Published Model",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}",
             "description": "Delete wml instances instance published models published model.",
@@ -152,11 +152,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "177c185aa7a43656340c719f1b672168",
+            "id": "d2fa55f55fa1583c085050b1337c754e",
             "name": "Patch Wml Instances Instance Published Models Published Model",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}",
             "description": "Patch wml instances instance published models published model.",
@@ -183,11 +183,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "ee984f499edde112fc63e216dc88b4a8",
+            "id": "46b20ff55585c5d17863ba4258a9569b",
             "name": "Get Wml Instances Instance Published Models Published Model Evaluation Metrics",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/evaluation_metrics",
             "description": "Get wml instances instance published models published model evaluation metrics.",
@@ -206,11 +206,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "84af2c965f473d46920ae990b922ea68",
+            "id": "567eff93b2b6c1cb1d55f0d61cadb5ff",
             "name": "Put Wml Instances Instance Published Models Published Model Learning Configuration",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/learning_configuration",
             "description": "Put wml instances instance published models published model learning configuration.",
@@ -237,11 +237,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "4b6203dac83b75b33caffb4bac2704be",
+            "id": "1ff442dac9132be15ceeec7fee390c42",
             "name": "Patch Wml Instances Instance Published Models Published Model Learning Configuration",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/learning_configuration",
             "description": "Patch wml instances instance published models published model learning configuration.",
@@ -268,11 +268,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "1178ceb8e93be25458f7885c6495f2d1",
+            "id": "1c2c9ce433b8244832c744c02219b4ab",
             "name": "Post Wml Instances Instance Published Models Published Model Learning Iterations",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/learning_iterations",
             "description": "Post wml instances instance published models published model learning iterations.",
@@ -299,11 +299,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "e4f8f28f4b7278a02d43ae9a8c6d4a38",
+            "id": "471aa9aa282246f3f64e60d5b53416fe",
             "name": "Get Wml Instances Instance Published Models Published Model Learning Iterations",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/learning_iterations",
             "description": "Get wml instances instance published models published model learning iterations.",
@@ -330,11 +330,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "108bf085be4ee874ecd20b926811d12c",
+            "id": "6427c7fa1da96664a5b08968d6da8010",
             "name": "Get Wml Instances Instance Published Models Published Model Learning Iterations Learning Iteration",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/learning_iterations\/{learning_iteration_id}",
             "description": "Get wml instances instance published models published model learning iterations learning iteration.",
@@ -353,11 +353,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "a9707f0a2c9ef91f6e35f90b2b28abe4",
+            "id": "edbbe0e4ec203fda3483824e1496a67b",
             "name": "Post Wml Instances Instance Published Models Published Model Feedback",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/feedback",
             "description": "Receives the feedback data and stores it in the feedback store\ndefined in learning configuration\n",
@@ -384,11 +384,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "97b556c9d1dca9efc6e3859b72890e27",
+            "id": "3f7ce03e2208c965ab28b6f934f9e175",
             "name": "Post Wml Instances Instance Published Models Published Model Deployments",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/deployments",
             "description": "Creates the deployment - online, stream, batch (batch deployment only supports Cloud Object Storage as input\/output for Tensorflow, Keras and Caffe models.)",
@@ -422,11 +422,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "59fdcf876383b45311a184cb75255b98",
+            "id": "e7452c3cd9140bf4403403577cc1ff01",
             "name": "Get Wml Instances Instance Published Models Published Model Deployments",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/deployments",
             "description": "Get wml instances instance published models published model deployments.",
@@ -467,11 +467,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "6b0fc3027180ed1e8f81cecc3ccc3dd6",
+            "id": "202a3dee23a6b6ab53813baac94932af",
             "name": "Get Wml Instances Instance Published Models Published Model Deployments Deployment",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/deployments\/{deployment_id}",
             "description": "Get wml instances instance published models published model deployments deployment.",
@@ -490,11 +490,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "c5594b4819b4ede5f7fc744caf466f4d",
+            "id": "7e9527aed1e28f21fc2a0ab3f27f0e35",
             "name": "Patch Wml Instances Instance Published Models Published Model Deployments Deployment",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/deployments\/{deployment_id}",
             "description": "Patch wml instances instance published models published model deployments deployment.",
@@ -521,11 +521,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "ba20872692033e3d18e8c03b7666d8b4",
+            "id": "d227b8480efde220c29f33cde94729c3",
             "name": "Delete Wml Instances Instance Published Models Published Model Deployments Deployment",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/deployments\/{deployment_id}",
             "description": "Delete wml instances instance published models published model deployments deployment.",
@@ -552,11 +552,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "19405aca58e2ac9431fc4174674fc450",
+            "id": "0ac746fae69143a17671f8e35470e7a6",
             "name": "Post Wml Instances Instance Published Models Published Model Deployments Deployment Online",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/published_models\/{published_model_id}\/deployments\/{deployment_id}\/online",
             "description": "Post wml instances instance published models published model deployments deployment online.",
@@ -583,11 +583,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "ec736994b070ccfb5bf498389443e812",
+            "id": "32e06f6f496bd3307e0bf06b18324255",
             "name": "Get Wml Instances Instance Deployments",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}\/deployments",
             "description": "Get wml instances instance deployments.",
@@ -606,11 +606,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         },
         {
-            "id": "bb37d9c668a15d8865c317d36227eb64",
+            "id": "ce81c36ae7f6426b47ea89719f66b68b",
             "name": "Get Wml Instances Instance",
             "url": "httpsibm-watson-ml.mybluemix.netv3\/\/wml_instances\/{instance_id}",
             "description": "Details about specific service instance",
@@ -629,7 +629,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "5cf97cefb6c14f9bfd107b4fac762561",
+            "collectionId": "c2a202bff1385642d764fca2f1ffa91c",
             "rawModeData": ""
         }
     ]
