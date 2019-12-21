@@ -12,8 +12,8 @@
         "relative data",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -27,15 +27,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-concept-expansion-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-concept-expansion-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-concept-expansion-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-concept-expansion-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-concept-expansion-api-postman-collection.json"
                 }
             ]
         },
@@ -49,15 +49,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-language-classifier-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-language-classifier-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-language-classifier-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-language-classifier-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-language-classifier-api-postman-collection.json"
                 }
             ]
         },
@@ -71,15 +71,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-translation-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-machine-translation-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-machine-translation-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-translation-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-machine-translation-api-postman-collection.json"
                 }
             ]
         },
@@ -93,15 +93,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-message-resonance-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-message-resonance-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-message-resonance-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-message-resonance-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-message-resonance-api-postman-collection.json"
                 }
             ]
         },
@@ -115,15 +115,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-question-answer-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-question-answer-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-question-answer-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-question-answer-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-question-answer-api-postman-collection.json"
                 }
             ]
         },
@@ -137,15 +137,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-relationship-extraction-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-relationship-extraction-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-relationship-extraction-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-relationship-extraction-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-relationship-extraction-api-postman-collection.json"
                 }
             ]
         },
@@ -159,15 +159,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-user-modeling-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-user-modeling-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-user-modeling-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-user-modeling-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-user-modeling-api-postman-collection.json"
                 }
             ]
         },
@@ -181,15 +181,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-learning-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-machine-learning-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-machine-learning-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-machine-learning-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-machine-learning-api-postman-collection.json"
                 }
             ]
         },
@@ -203,21 +203,25 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-iot-platform-http-rest-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/ibm-watson-iot-platform-http-rest-api.json"
                 },
                 {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-iot-platform-http-rest-api-openapi.json"
+                },
+                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ibm-watson-iot-platform-http-rest-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/ibm-watson\/master\/ibm-watson-iot-platform-http-rest-api-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Application Gallery",
             "url": "https:\/\/www.ibm.com\/smarterplanet\/us\/en\/ibmwatson\/developercloud\/gallery.html"
